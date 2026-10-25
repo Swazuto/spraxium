@@ -1,5 +1,12 @@
 # @spraxium/signal-bot
 
+## 0.0.12
+
+### Patch Changes
+
+- Updated dependencies [8ccd2f7]
+  - @spraxium/signal@0.3.2
+
 ## 0.0.11
 
 ### Patch Changes
