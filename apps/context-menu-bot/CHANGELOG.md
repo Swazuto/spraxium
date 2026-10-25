@@ -1,5 +1,15 @@
 # @spraxium/context-menu-bot
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies [5d80203]
+  - @spraxium/common@0.3.1
+  - @spraxium/core@0.3.1
+  - @spraxium/env@0.3.1
+  - @spraxium/logger@0.3.1
+
 ## 0.0.8
 
 ### Patch Changes

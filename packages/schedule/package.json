@@ -1,6 +1,6 @@
 {
   "name": "@spraxium/schedule",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Cron-based job scheduler with optional Redis driver for distributed and sharded environments",
   "keywords": [

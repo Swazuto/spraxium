@@ -1,5 +1,22 @@
 # @spraxium/schedule
 
+## 1.0.1
+
+### Patch Changes
+
+- 5d80203: Require patched Hono and shell-quote releases to address upstream security vulnerabilities.
+
+  Require Node.js 22.23.4+, 24.22.1+, or 26.12.1+ within the respective supported major release line to include the October 21, 2026 security fixes, including CVE-2026-111497 in the Brotli decoder. Update development and CI runtimes to the patched releases.
+
+  Remove the transitive sprintf-js dependency from Changesets tooling by upgrading its CommonJS-compatible YAML file reader to use js-yaml 4. The associated GHSA-hp3w-g68c-fv3c advisory was withdrawn on October 22, 2026 and has no patched sprintf-js release.
+
+  Move dependency overrides and Node.js engine validation to pnpm-workspace.yaml, and align repository tooling with pnpm 11.25.0 so current pnpm releases apply the security overrides. Explicitly allow the existing native dependency installation scripts.
+
+- Updated dependencies [5d80203]
+  - @spraxium/common@0.3.1
+  - @spraxium/core@0.3.1
+  - @spraxium/logger@0.3.1
+
 ## 1.0.0
 
 ### Minor Changes
