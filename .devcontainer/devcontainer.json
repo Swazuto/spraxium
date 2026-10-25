@@ -1,5 +1,5 @@
 ﻿{
   "name": "Spraxium",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:24-bookworm",
-  "postCreateCommand": "corepack enable && corepack prepare pnpm@9.15.0 --activate && pnpm install --frozen-lockfile && pnpm run build"
+  "postCreateCommand": "corepack enable && corepack install && pnpm install --frozen-lockfile && pnpm run build"
 }
