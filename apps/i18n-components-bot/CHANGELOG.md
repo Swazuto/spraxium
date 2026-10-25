@@ -1,5 +1,17 @@
 # @spraxium/i18n-components-bot
 
+## 0.0.12
+
+### Patch Changes
+
+- Updated dependencies [5d80203]
+  - @spraxium/common@0.3.1
+  - @spraxium/components@1.0.1
+  - @spraxium/core@0.3.1
+  - @spraxium/env@0.3.1
+  - @spraxium/i18n@2.0.1
+  - @spraxium/logger@0.3.1
+
 ## 0.0.11
 
 ### Patch Changes
