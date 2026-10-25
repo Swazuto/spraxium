@@ -19,7 +19,7 @@
     "@spraxium/signal": "workspace:*",
     "discord.js": "^14.27.0",
     "reflect-metadata": "^0.2.2",
-    "zod": "^3.24.0"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@spraxium/cli": "workspace:*",

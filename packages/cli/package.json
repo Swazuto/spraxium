@@ -46,7 +46,7 @@
     "@types/shell-quote": "^1.7.5",
     "tsdown": "^0.22.14",
     "typescript": "^7.0.2",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.12"
   },
   "files": ["dist"],
   "license": "Apache-2.0",

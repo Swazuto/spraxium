@@ -10,6 +10,16 @@ Handlers are defined with the `@SignalListener` class decorator and the `@OnSign
 npm install @spraxium/signal
 ```
 
+Signal schemas require Zod 4.6.6 or newer within the 4.x release line. Projects using Zod 3 should
+upgrade their direct `zod` dependency before passing schemas to `@OnSignal`:
+
+```bash
+npm install zod@^4.6.6
+```
+
+Set explicit collection limits such as `.max()` or `.length()` for untrusted payloads. Patched Zod
+releases reject collections exceeding these bounds before validating individual elements.
+
 ## Usage
 
 ```typescript
