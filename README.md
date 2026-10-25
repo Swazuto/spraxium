@@ -57,7 +57,7 @@ Spraxium supports Discord sharding through `ShardingManager`. When sharding is e
 
 ## Requirements
 
-- Node.js 22.23.2+, 24.19.0+, or 26.7.0+ within the respective major release line
+- Node.js 22.23.4+, 24.22.1+, or 26.12.1+ within the respective major release line
 - TypeScript 5.7 or newer
 - discord.js 14
 - `experimentalDecorators` and `emitDecoratorMetadata` enabled in `tsconfig.json`

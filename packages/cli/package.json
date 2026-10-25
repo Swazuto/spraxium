@@ -21,7 +21,7 @@
   ],
   "type": "module",
   "engines": {
-    "node": ">=22.23.2 <27"
+    "node": "^22.23.4 || ^24.22.1 || ^26.12.1"
   },
   "bin": {
     "spraxium": "./dist/index.js"

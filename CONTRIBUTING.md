@@ -24,7 +24,7 @@ Please read and follow our [Code of Conduct](./CODE_OF_CONDUCT.md). We expect al
 
 **Prerequisites:**
 
-- Node.js 22.23.2+, 24.19.0+, or 26.7.0+ within the respective major release line
+- Node.js 22.23.4+, 24.22.1+, or 26.12.1+ within the respective major release line
 - [pnpm](https://pnpm.io/) 9.15+
 
 **Setup:**
